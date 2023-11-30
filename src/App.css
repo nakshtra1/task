@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+.text {
+  color: #f8c7a6;
+}
+.text1 {
+  color: #583e61;
+}
+.text2 {
+  color: #8b7991;
+  font-size: larger;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.h4-responsive {
+  overflow-wrap: break-word;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.color {
+  color: #e5893d;
+  background: #fde2d1;
+  border-radius: 50%;
+  font-size: x-large !important;
+}
+.color1 {
+  color: #333980;
+  background: #c4c6db;
+  border-radius: 50%;
+  font-size: x-large !important;
+}
+.color2 {
+  color: #ed5b9f;
+  background: #fcdafb;
+  border-radius: 50%;
+  font-size: x-large !important;
+}
+.color3 {
+  color: #ff7777;
+  background: #ffcecf;
+  border-radius: 50%;
+  font-size: x-large !important;
+}
+
+.alertt {
+  background: #fff6ef;
+  margin: 0.8em 0;
+  box-shadow: 2px 5px 10px -9px;
+}
+.alertt1 {
+  background: #eef0ff;
+  margin: 0.8em 0;
+  box-shadow: 2px 5px 10px -9px;
+}
+.alertt2 {
+  background: #ffefff;
+  margin: 0.8em 0;
+  box-shadow: 2px 5px 10px -9px;
+}
+.alertt3 {
+  background: #ffeced;
+  margin: 0.8em 0;
+  box-shadow: 2px 5px 10px -9px;
+}
+
+/* Media query for smaller screens, like mobile devices */
+@media (max-width: 400px) {
+  .h4-responsive {
+    font-size: 1.2rem; /* Adjust the font size for smaller screens */
+    margin-top: 0.5rem; /* Adjust the margin as needed */
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.textColor {
+  color: #cca679;
+}
+.textColor1 {
+  color: #5f77bb;
+}
+.textColor2 {
+  color: #d385ac;
+}
+.textColor3 {
+  color: #d88282;
+}
+
+#buttonn {
+  background: #812c9b;
+  border-radius: 1em;
+  color: rgb(158, 157, 157);
+  border-color: #812c9b;
+}
+
+.button1 {
+  margin-left: 10px;
+}
+
+.grids {
+  background: grey;
+  border-radius: 7px;
+  padding: 3em;
+  font-size: x-large;
+  font-weight: bold;
+}
+.grids2 {
+  background: grey;
+  border-radius: 7px;
+  padding: 5em;
+  height: 15em;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  flex-direction: row;
+  align-items: center;
+  font-size: x-large;
+  font-weight: bold;
 }
